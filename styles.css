@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.horizontal-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.horizontal-list li{
+padding: 1%;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-icons a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #2980b9;
+}
+
+#contact {
+    background-color: #f9f9f9;
+}
+
+#contactside {
+    background-color: #f9f9f9;
+    width: 500px;
+}
+
+#languageside {
+    background-color: #f9f9f9;
+    width: 500px;
+}
+
+.project-card {
+    border: 1px solid #dcdde1;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+    max-width: 100%;
+    margin: 0;
+}
+
+.main {
+    flex: 2;
+    padding: 20px;
+    background-color: #ffffff;
+    width: 70%;
+}
+
+.sidebar {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    width: 30%;
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navlist li {
+    list-style: none;
+    padding:10px;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .navlist {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .horizontal-list {
+        flex-direction: column;
+    }
+}
