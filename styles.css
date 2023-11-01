@@ -1,18 +1,23 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
+/* Your existing CSS styles */
+
 body {
     font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #333; /* Dark background color */
-    color: #f0f0f0; /* Light text color */
+    background-color: #333;
+    color: #f0f0f0;
 }
 
 .container {
     display: flex;
     justify-content: center;
 }
+
+img{ width:60%;
+height:auto;}
 
 .horizontal-list {
     list-style: none;
@@ -26,7 +31,7 @@ body {
 }
 
 header {
-    background-color: #2c3e50; /* Dark header background */
+    background-color: #2c3e50;
     color: #ecf0f1;
     text-align: center;
     padding: 20px 0;
@@ -39,59 +44,58 @@ header h1 {
 }
 
 nav a {
-    color: #ecf0f1; /* Light text color for navigation links */
+    color: #ecf0f1;
     text-decoration: none;
 }
 
 .social-icons a {
-    color: #3498db; /* Accent color for social icons */
+    color: #3498db;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .social-icons a:hover {
-    color: #2980b9; /* Darker accent color on hover */
+    color: #2980b9;
 }
 
 #contact {
-    background-color: #444; /* Dark background for contact section */
+    background-color: #444;
 }
 
 #contactside {
-    background-color: #444; /* Dark background for contact side */
+    background-color: #444;
     width: 500px;
 }
 
 #languageside {
-    background-color: #444; /* Dark background for language side */
+    background-color: #444;
     width: 500px;
 }
 
 .project-card {
+  display:flex;
     border: 1px solid #dcdde1;
     padding: 20px;
     margin: 20px 0;
-    background-color: #222; /* Dark card background */
+    background-color: #222;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.project-card img {
-    max-width: 100%;
-    margin: 0;
-}
+
+
 
 .main {
     flex: 2;
     padding: 20px;
-    background-color: #222; /* Dark background for the main content */
+    background-color: #222;
     width: 70%;
 }
 
 .sidebar {
     flex: 1;
     padding: 20px;
-    background-color: #333; /* Dark background for the sidebar */
+    background-color: #333;
     width: 30%;
 }
 
@@ -106,19 +110,60 @@ nav a {
     list-style: none;
     padding: 10px;
 }
-a{color:white;
-text-decoration:none;
-padding:5px;}
 
-a:hover{color:orange;
-text-decoration:underline;
-padding:5px;}
+a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
 
+a:hover {
+    color: orange;
+    text-decoration: underline;
+    padding: 5px;
+}
+
+.project-info {
+padding:3%;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+}
+#image{
+margin-left:20%;
+margin
+}
+
+#prevButton,
+#nextButton {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 4rem;
+    background-color: gray;
+    opacity: 10%;
+    color: #f0f0f0; /* Light text color */
+    border: none;
+    outline: none;
+    transition: color 0.3s;
+}
+
+#prevButton:hover,
+#nextButton:hover {
+    color: #3498db; /* Accent color on hover */
+}
+
+
+
+
+
+
+/* Additional styles for responsiveness and layout */
 @media (max-width: 768px) {
     header h1 {
         font-size: 2em;
     }
-
 
     .main {
         width: 100%;

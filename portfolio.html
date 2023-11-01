@@ -70,57 +70,25 @@
 
     <section id="portfolio">
       <h1>Projects</h1>
-
-
-
       <div class="project-card">
-
+        <button id="prevButton"> < </button>
         <div class="project-info">
-          <h2>DuckShare</h2>
-          <p>As part of my Web-Frameworks module in my third year of college, we are required to make a static site that can process live data. I decided to make a website that allows users to login/register so that they can post and review each other's rubber ducks. It is like a mix between Instagram and Pinterest for Ducks</p>
-          <p><strong>Technologies Used:</strong> Pug, Javascript, CSS, MongoDB, Node.js, Express, Angular</p>
 
-          <a href="https://github.com/ConorDawson/WebFrameWorks">GitHub Repo</a>
-          <img src="images/duckshare.png" alt="Project Name">
+          <h2 id="title"></h2>
+          <p id="paragraph"></p>
+          <strong>Technologies Used:</strong><p id="technologies"></p>
+
+          <a id="link" href="">GitHub Repo</a>
+          <div id="imageContainer">
+            <img id="image" src="image1.jpg" alt="Image 1">
+          </div>
+
         </div>
-      </div>
-
-      <div class="project-card">
-        <div class="project-info">
-          <h2>Groccery System</h2>
-          <p>As part of my Software Engineering module in my second year of college, The grocery shopping system is a comprehensive platform that allows users to register and log in, search for products, add items to their cart, proceed to checkout, and cancel orders when necessary. It also offers customers the ability to edit their profiles and account details for a personalized shopping experience. For administrators, the system provides capabilities to manage the product catalog, including adding, editing, and removing products, as well as monitoring stock levels and analyzing sales data. Admins can also dispatch orders, manage user accounts, and oversee the entire order fulfillment process, ensuring smooth and efficient operations. The system is built to be scalable to handle increased traffic and growing product catalogs. It delivers essential features, such as order history, order confirmation, to create a seamless grocery shopping experience for both customers and administrators.</p>
-          <p><strong>Technologies Used:</strong> C#, Oracle, SQL</p>
-
-          <a href="https://github.com/ConorDawson/SD_Conor_Dawson_RE">GitHub Repo</a>
-        </div>
-        <img src="images/Groccery.jpg" alt="Project Name">
-      </div>
-
-      <div class="project-card">
-
-        <div class="project-info">
-          <h2>Number Game </h2>
-          <p> This project is a passion project of mine, I noticed my nephew struggling to learn his numbers because he found it too boring so I had an idea to make learning his numbers more fun by making an interactive game.
-            The game is a simple concept that helps with their number and pattern recognition skilln by generating a list of numbers and the player must guess the correct one. It uses their ability to count as well as their ability to recognise number.</p>
-          <p><strong>Technologies Used:</strong>Java</p>
-
-          <a href="https://github.com/ConorDawson/NumberGame">GitHub Repo</a>
-          <img src="images/NumberGame.jpg" alt="Project Name">
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div class="project-info">
-          <h2>Currency Exchange System</h2>
-          <p>This is a work in progress for my Software Tools Module it is a group project where we intend to have a functioning exchange system that allows a user to hold multiple currencies exchange said currency and transfer to other users.</p>
-          <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript, PostGreSQL</p>
-
-          <a href="https://github.com/currencyConversion/CurrencyConversionAPP2023">GitHub Repo</a>
-        </div>
-        <img src="images/currency.jpg" alt="Project Name">
+        <button id="nextButton"> > </button>
       </div>
     </section>
   </main>
 </div>
+<script src="function.js"></script>
 </body>
 </html>
