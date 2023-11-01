@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4eff5a75-ddc1-4047-bdb0-d8ce378ed4c7" name="Changes" comment="">
+    <list default="true" id="4eff5a75-ddc1-4047-bdb0-d8ce378ed4c7" name="Changes" comment="First Commit">
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
@@ -64,9 +64,19 @@
       <option name="presentableId" value="Default" />
       <updated>1698839165215</updated>
     </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <created>1698850098532</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698850098532</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
   </component>
 </project>
