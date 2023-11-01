@@ -5,8 +5,8 @@ body {
     font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #333; /* Dark background color */
+    color: #f0f0f0; /* Light text color */
 }
 
 .container {
@@ -14,19 +14,19 @@ body {
     justify-content: center;
 }
 
-
 .horizontal-list {
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-.horizontal-list li{
-padding: 1%;
+
+.horizontal-list li {
+    padding: 1%;
 }
 
 header {
-    background-color: #2c3e50;
+    background-color: #2c3e50; /* Dark header background */
     color: #ecf0f1;
     text-align: center;
     padding: 20px 0;
@@ -39,31 +39,31 @@ header h1 {
 }
 
 nav a {
-    color: white;
+    color: #ecf0f1; /* Light text color for navigation links */
     text-decoration: none;
 }
 
 .social-icons a {
-    color: #3498db;
+    color: #3498db; /* Accent color for social icons */
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .social-icons a:hover {
-    color: #2980b9;
+    color: #2980b9; /* Darker accent color on hover */
 }
 
 #contact {
-    background-color: #f9f9f9;
+    background-color: #444; /* Dark background for contact section */
 }
 
 #contactside {
-    background-color: #f9f9f9;
+    background-color: #444; /* Dark background for contact side */
     width: 500px;
 }
 
 #languageside {
-    background-color: #f9f9f9;
+    background-color: #444; /* Dark background for language side */
     width: 500px;
 }
 
@@ -71,7 +71,7 @@ nav a {
     border: 1px solid #dcdde1;
     padding: 20px;
     margin: 20px 0;
-    background-color: #ffffff;
+    background-color: #222; /* Dark card background */
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -84,14 +84,14 @@ nav a {
 .main {
     flex: 2;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #222; /* Dark background for the main content */
     width: 70%;
 }
 
 .sidebar {
     flex: 1;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #333; /* Dark background for the sidebar */
     width: 30%;
 }
 
@@ -104,13 +104,21 @@ nav a {
 
 .navlist li {
     list-style: none;
-    padding:10px;
+    padding: 10px;
 }
+a{color:white;
+text-decoration:none;
+padding:5px;}
+
+a:hover{color:orange;
+text-decoration:underline;
+padding:5px;}
 
 @media (max-width: 768px) {
     header h1 {
         font-size: 2em;
     }
+
 
     .main {
         width: 100%;
